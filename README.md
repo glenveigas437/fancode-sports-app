@@ -75,6 +75,7 @@ In order to reduce the latency of returning large amount of data I have made use
 
 
 ###  Run Tests
+Create a new mysql db named ```test_db```
 
 Run a particular test with the command
 ```ENV=Testing python3 -m unittest tests.news.test_news```
@@ -86,6 +87,10 @@ Run a particular test with the command
 ```docker run -d -p 3000:3000 fancode-sports-app```
 
 The app will be running on localhost:3000
+
+
+## Important
+While running the app on your local system change the value of ```DB_HOST = localhost``` and while running the docker image change the value to ```host.docker.internal```
 
 
 
