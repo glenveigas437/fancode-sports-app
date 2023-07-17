@@ -91,7 +91,7 @@ The app will be running on localhost:3000
 
 ## Important
 While running the app on your local system change the value of ```DB_HOST = localhost``` and while running the docker image change the value to ```host.docker.internal```
-
+The base.sql file is the original file provided with this assignment and all the migrations are included in it.
 
 
 
